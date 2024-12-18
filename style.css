@@ -1,0 +1,36 @@
+    body {
+      font-family: Arial, sans-serif;
+    }
+    #title {
+      text-align: center;
+      font-size: 2em;
+      margin: 10px 0;
+    }
+    #description {
+      text-align: center;
+      font-size: 1.2em;
+      margin-bottom: -30px;
+    }
+    .cell {
+      stroke: #fff;
+    }
+    #tooltip {
+      position: absolute;
+      opacity: 0;
+      background-color: #333;
+      color: white;
+      padding: 5px;
+      border-radius: 5px;
+      pointer-events: none;
+    }
+    .axis text {
+      font-size: 12px;
+    }
+    .legend rect {
+      stroke: #000;
+    }
+    .cell:hover {
+      cursor: pointer;
+      stroke: black;
+      stroke-width: 2px;
+    }
